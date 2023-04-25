@@ -1,19 +1,19 @@
-﻿using System;
+﻿using Application.DTO;
+using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain
+namespace Application.Command
 {
-    public class Drone
+    public class RegisterDroneCommand : IRequest<DroneDto>
     {
-        public int Id { get; set; }
         public string SerialNumber { get; set; }
         public string Model { get; set; }
         public double WeightLimit { get; set; }
         public double BatteryCapacity { get; set; }
         public string State { get; set; }
-        public ICollection<Medication> Medications { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Application.ObjectMapping;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace Application.Core
     {
         public static void AddApplication(this IServiceCollection services, IConfiguration configuration)
         {
-            
+            services.AddAutoMapper(typeof(DroneProfile));
         }
 
    

@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Application.DTO
 {
-    internal class DroneDto
+    public class DroneDto
     {
+        public int Id { get; set; }
+        public string SerialNumber { get; set; }
+        public string Model { get; set; }
+        public double WeightLimit { get; set; }
+        public double BatteryCapacity { get; set; }
+        public string State { get; set; }
     }
 }

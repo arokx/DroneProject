@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IItgXvjg0L5JsWioe6ZLrT579nVeB+P7ZYt5mOByiN5o1ZgthYekO1mSQ6ermhU39SowMtO119UVkOFrIdD0Kg==",
+  "dgSpecHash": "i79m44xaReyxOpJg6RoVvnuBekfs/WYNMvKK8QX/VAmBFoMP3d9VREeO1gi155pNwVF61anKFCawVYIlgF758Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\anujajayathilaka\\Documents\\Anuja\\Musala\\Application.ObjectMapping\\Application.ObjectMapping.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
