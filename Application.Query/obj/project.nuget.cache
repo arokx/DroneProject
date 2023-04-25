@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "XSKf3ZMhqiUiwORB2Vltqb8kQDLNeQ84L+4becGI2hw+8woxNZA/MK27EJuLFAcDR58rt8T1hBFc5R976X4FrA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anujajayathilaka\\Documents\\Anuja\\Musala\\Application.Query\\Application.Query.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://cma-devops:8080/tfs/DefaultCollection/_packaging/Camms.Core/nuget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
