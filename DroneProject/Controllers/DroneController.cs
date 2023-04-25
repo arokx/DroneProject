@@ -1,4 +1,4 @@
-﻿using Application.Command;
+﻿using Application.Command.RegisterDrone;
 using Domain;
 using MediatR;
 using Microsoft.AspNetCore.Http;

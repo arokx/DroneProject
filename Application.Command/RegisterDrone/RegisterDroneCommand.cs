@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Command
+namespace Application.Command.RegisterDrone
 {
     public class RegisterDroneCommand : IRequest<DroneDto>
     {

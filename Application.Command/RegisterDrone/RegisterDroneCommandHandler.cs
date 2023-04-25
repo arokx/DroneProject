@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
-namespace Application.Command
+namespace Application.Command.RegisterDrone
 {
     public class RegisterDroneCommandHandler : IRequestHandler<RegisterDroneCommand, DroneDto>
     {
@@ -24,7 +24,7 @@ namespace Application.Command
 
         public async Task<DroneDto> Handle(RegisterDroneCommand request, CancellationToken cancellationToken)
         {
-            Drone drone = new Drone { SerialNumber = request.SerialNumber, Model = request.Model, BatteryCapacity = request.BatteryCapacity, WeightLimit = request.WeightLimit,State = request.State };
+            Drone drone = new Drone { SerialNumber = request.SerialNumber, Model = request.Model, BatteryCapacity = request.BatteryCapacity, WeightLimit = request.WeightLimit, State = request.State };
             await UnitOfWork.GetRepository<Drone>().InsertAsync(drone);
             await UnitOfWork.SaveAsync();
             DroneDto droneDto = Mapper.Map<DroneDto>(drone);
