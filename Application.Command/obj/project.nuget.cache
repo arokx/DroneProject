@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7uF1tJmJ7LCcw/U5OI6i10WvIvQwPvA4kEHfi3cIIfVAM28LsHIXWZPgF8VAgJlx2unLVmwSRzJIQcoTcgD+uA==",
+  "dgSpecHash": "cO2nggm55eTCNlikj9Mz33Ld9uPig5E4WxmLgQAdWy3zIaL6SZO9MWzfEqZw2A3MtBKK3s8o8glHlfbXnlIRpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\anujajayathilaka\\Documents\\Anuja\\Musala\\Application.Command\\Application.Command.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
