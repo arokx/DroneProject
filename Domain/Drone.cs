@@ -14,6 +14,6 @@ namespace Domain
         public double WeightLimit { get; set; }
         public double BatteryCapacity { get; set; }
         public string State { get; set; }
-        public ICollection<Medication> Medications { get; set; }
+        public List<Medication> Medications { get; set; }
     }
 }

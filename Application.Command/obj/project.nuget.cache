@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+IJkLkHQ30/0mVS8YUZ7dgv9pBxrD1ZH9VRtEzHa9LVUnFOWJMY5BWSeC/49196vp1uUpi9QYu/wBKxCE1kQ3Q==",
+  "dgSpecHash": "oSmjYR3oyPh5wsrS1F0r+WwxGkOKZSP5l3S1BC4ahRZre1rvdCjGdwzl3G3PE+EIw9598jp14gdTk4psgoSUfQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\anujajayathilaka\\Documents\\Anuja\\Musala\\Application.Command\\Application.Command.csproj",
   "expectedPackageFiles": [
@@ -16,8 +16,11 @@
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.5\\microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.5\\microsoft.entityframeworkcore.sqlserver.7.0.5.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",

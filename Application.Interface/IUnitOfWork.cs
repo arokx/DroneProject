@@ -14,5 +14,6 @@ namespace Application.Interface
         Task<IDbContextTransaction> BeginTransactionAsync();
         Task SaveAsync();
         void Save();
+        
     }
 }

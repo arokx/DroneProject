@@ -12,6 +12,6 @@ namespace Application.DTO
         public string Name { get; set; }
         public double Weight { get; set; }
         public string Code { get; set; }
-        public byte[] Image { get; set; }
+        public byte[]? Image { get; set; }
     }
 }

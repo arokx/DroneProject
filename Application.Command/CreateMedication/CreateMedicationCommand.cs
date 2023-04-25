@@ -1,18 +1,20 @@
-﻿using System;
+﻿using Application.DTO;
+using Domain;
+using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain
+namespace Application.Command.CreateMedication
 {
-    public class Medication
+    public class CreateMedicationCommand : IRequest<MedicationDto>
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public double Weight { get; set; }
         public string Code { get; set; }
         public byte[]? Image { get; set; }
-        public Drone Drone { get; set; }
+        public int DroneId { get; set; }
     }
 }

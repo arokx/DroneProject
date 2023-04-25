@@ -14,6 +14,7 @@ namespace Application.ObjectMapping
         public DroneProfile() 
         {
             CreateMap<Drone, DroneDto>().ReverseMap();
+            CreateMap<Medication, MedicationDto>().ReverseMap();
         }     
     }
 }
