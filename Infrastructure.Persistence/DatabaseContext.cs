@@ -53,6 +53,7 @@ namespace Infrastructure.Persistence
             base.OnModelCreating(builder);
         }
 
-       // public DbSet<User> User { get; set; }
+        public DbSet<Drone> Drone { get; set; }
+        public DbSet<Medication> Medication { get; set; }
     }
 }
