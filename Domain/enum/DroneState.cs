@@ -1,9 +1,9 @@
-﻿public enum DroneState
+﻿public enum DroneState 
 {
-    Idle,
-    Loading,
-    Loaded,
-    Delivering,
-    Delivered,
-    Returning
+    IDLE ,
+    LOADING, 
+    LOADED, 
+    DELIVERING, 
+    DELIVERED, 
+    RETURNING
 }

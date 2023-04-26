@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,6 @@ namespace Application.DTO
         public double WeightLimit { get; set; }
         public double BatteryCapacity { get; set; }
         public string State { get; set; }
+        public List<MedicationDto> Medications { get; set; }
     }
 }

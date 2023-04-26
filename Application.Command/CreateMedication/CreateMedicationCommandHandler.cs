@@ -18,12 +18,10 @@ namespace Application.Command.CreateMedication
     {
         private readonly IUnitOfWork UnitOfWork;
         private readonly IMapper Mapper;
-        private readonly DatabaseContext Context;
-        public CreateMedicationCommandHandler(IUnitOfWork unitOfWork, IMapper mapper, DatabaseContext context)
+        public CreateMedicationCommandHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
             UnitOfWork = unitOfWork;
             Mapper = mapper;
-            Context = context;
         }
 
         public async Task<MedicationDto> Handle(CreateMedicationCommand request, CancellationToken cancellationToken)
