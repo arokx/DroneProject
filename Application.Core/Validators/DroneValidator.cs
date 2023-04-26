@@ -19,17 +19,19 @@ namespace Application.Core.Validators
 
             RuleFor(d => d.Model)
                 .NotEmpty().WithMessage("Model is required.")
-                .Must(m => Enum.IsDefined(typeof(DroneModel), m)).WithMessage("Invalid model.");
+                .Must(m => Enum.IsDefined(typeof(DroneModel), m)).WithMessage("Invalid model.Model should be Lightweight,Middleweight,Cruiserweight or Heavyweight");
 
-            RuleFor(d => d.WeightLimit)
+            RuleFor(d => d.WeightLimit).NotEmpty().WithMessage("Weight is required.")
                 .GreaterThan(0).WithMessage("Weight limit must be greater than 0.")
                 .LessThanOrEqualTo(500).WithMessage("Weight limit cannot be greater than 500 grams.");
 
             RuleFor(d => d.BatteryCapacity)
+                .NotEmpty().WithMessage("Battery capacity is required.")
                 .InclusiveBetween(0, 100).WithMessage("Battery capacity must be between 0 and 100.");
 
             RuleFor(d => d.State)
-                .Must(m => Enum.IsDefined(typeof(DroneState), m)).WithMessage("Invalid state.");
+                .NotEmpty().WithMessage("State is required.")
+                .Must(m => Enum.IsDefined(typeof(DroneState), m)).WithMessage("Invalid state. State should be IDLE, LOADING, LOADED, DELIVERING, DELIVERED or RETURNING.");
         }
     }
 }
