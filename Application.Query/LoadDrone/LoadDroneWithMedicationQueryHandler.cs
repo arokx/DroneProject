@@ -48,7 +48,7 @@ namespace Application.Query.LoadDrone
             // Check if the drone is already loaded to the maximum weight
             if (drone.WeightLimit < medicationWeight)
             {
-                throw new Exception($"Drone is trying to load {medicationWeight} gr. But cannot be loaded because drone weight limit is {drone.WeightLimit}gr");
+                throw new Exception($"Drone is trying to load {medicationWeight} gr. But cannot be loaded because drone weight limit is {drone.WeightLimit} gr");
             }
 
             // Check if the drone is in the LOADING state and has enough battery level

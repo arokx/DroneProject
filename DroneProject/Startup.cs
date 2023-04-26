@@ -1,4 +1,5 @@
 using Application.Core;
+using Application.Core.Middlewares;
 using FluentValidation.AspNetCore;
 using Infrastructure.Core;
 using MediatR;
@@ -55,7 +56,7 @@ namespace DroneProject
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
