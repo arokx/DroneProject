@@ -16,8 +16,7 @@ namespace Application.Command.CreateMedication
         public string Name { get; set; }
         public double Weight { get; set; }
         public string Code { get; set; }
-        [SwaggerSchema(Format = "byte")]
-        public byte[]? Image { get; set; } = null;
+        public byte[]? Image { get; set; } 
         public int DroneId { get; set; }
     }
 }
