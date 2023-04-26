@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oSmjYR3oyPh5wsrS1F0r+WwxGkOKZSP5l3S1BC4ahRZre1rvdCjGdwzl3G3PE+EIw9598jp14gdTk4psgoSUfQ==",
+  "dgSpecHash": "EtW84OqMUVVbGcOYYJgOvDxJanjHlvxzNzB/8OVPFSiK6FyTrtdzwnYL0g2Co/1bVX88zX07qTj9gEEqCx8TAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\anujajayathilaka\\Documents\\Anuja\\Musala\\Application.Command\\Application.Command.csproj",
   "expectedPackageFiles": [
@@ -37,8 +37,12 @@
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.24.0\\microsoft.identitymodel.tokens.6.24.0.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\anujajayathilaka\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\anujajayathilaka\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",

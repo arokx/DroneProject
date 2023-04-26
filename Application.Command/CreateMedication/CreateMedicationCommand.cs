@@ -1,6 +1,8 @@
 ﻿using Application.DTO;
 using Domain;
 using MediatR;
+using Microsoft.SqlServer.Server;
+using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +16,8 @@ namespace Application.Command.CreateMedication
         public string Name { get; set; }
         public double Weight { get; set; }
         public string Code { get; set; }
-        public byte[]? Image { get; set; }
+        [SwaggerSchema(Format = "byte")]
+        public byte[]? Image { get; set; } = null;
         public int DroneId { get; set; }
     }
 }

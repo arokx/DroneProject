@@ -1,4 +1,5 @@
 using Application.Core;
+using FluentValidation.AspNetCore;
 using Infrastructure.Core;
 using MediatR;
 using Microsoft.OpenApi.Models;
@@ -29,6 +30,9 @@ namespace DroneProject
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DeliveryApi", Version = "v1" });
             });
 
+            services.AddControllers()
+               .AddNewtonsoftJson()
+               .AddFluentValidation(fv => fv.RegisterValidatorsFromAssembly(AppDomain.CurrentDomain.Load("Application.Core")));
             services.AddInfrastructure(Configuration);
             services.AddApplication(Configuration);
             services.AddMediatR(AppDomain.CurrentDomain.Load("Application.Query"));
