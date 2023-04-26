@@ -6,6 +6,7 @@ DroneProject uses Clean Architecture with Mediator Pattern, CQRS, Repository Pat
 - Set the connection string in appsettings.json file to match your local database.
 - In the Infrastructure project, run the following command to add a migration: Add-Migration Persistence.
 - Then, run the following command to update the database: Update-Database.
+- Finally, set DroneProject web project in the Presentation layer as the default project and run the Application.
 
 ## Build With
 - .Net 6
